@@ -44,8 +44,8 @@ nav ul li.active a{
 
 /* Hovered Link*/
 nav ul li a:hover {
-  background-color: black;
-  color: white; 
+  /* background-color: black; */
+  color: orange; 
 }
 
 /***************************************** 
@@ -59,8 +59,21 @@ body{
 	margin-left: 0px;
 	margin-bottom: 0px;
 	font-family:sans-serif;
+	text-align: center;
 }
 
+h1{
+	text-align: center;
+	color:aquamarine;
+}
+
+h2{
+	font-size: 1.5em;
+}
+
+/***************************************** 
+Custom Entry Page - Mountain Hero Image
+*****************************************/
 .introBlock {
 	/* Edit Size */
 	width:100vw;
@@ -107,3 +120,42 @@ PAGE: ABOUT
   margin:0 auto 30px;
   border-radius: 100%;
 }
+
+.part2 {
+	background-color: aquamarine;
+	height:400px;
+	padding-top: 1px;
+}
+
+/***************************************** 
+PAGE: CHALLENGE MAIN
+*****************************************/
+.challengeBlock img{
+	width:600px;
+	display: block;
+    margin: 0 auto;
+}
+/***************************************** 
+FOOTER
+*****************************************/
+footer{
+  font-size: .5em;
+  text-align: center;
+  clear:both;
+  padding-top:15px;
+}
+
+footer img{
+  max-width:30px;
+  width:7%
+  margin:0;
+}
+
+
+/***************************************** 
+COLORS
+*****************************************/
+body{
+  background: #F9F9F9;
+}
+
