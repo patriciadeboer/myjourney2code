@@ -1,0 +1,109 @@
+/***************************************** 
+HEADER
+*****************************************/
+
+header {
+	background-color:white;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	height:70px;
+}
+
+header *{
+	display:inline;
+}
+
+
+header img{
+	height: 70px;
+	margin-left:30px;
+}
+
+/***************************************** 
+NAVIGATION
+*****************************************/
+
+
+nav li{
+	margin: 35px;
+	text-align:center;
+}
+
+nav li a {
+    color: teal;
+    text-decoration: none;
+}
+
+/* Active Link */
+nav ul li.active a{
+    color:black;
+    font-weight:bold;
+}
+
+/* Hovered Link*/
+nav ul li a:hover {
+  background-color: black;
+  color: white; 
+}
+
+/***************************************** 
+General
+*****************************************/
+
+
+body{
+	margin-top:75px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	font-family:sans-serif;
+}
+
+.introBlock {
+	/* Edit Size */
+	width:100vw;
+	/* how much of vw / wh -- view window to cover*/
+	height:90vh;
+
+	/*Box adjustments*/
+	display:flex;
+	justify-content: center;
+	align-items: center;
+
+	/* Text Align */
+	text-align: center;
+
+	/* Background */
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/homepage-mountains.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.introBlock h1{
+	font-size: 7em;
+	margin: 0 auto;
+	color:aquamarine;
+}
+
+.introBlock	h2{
+	font-size: 2em;
+	color:gray;
+}
+
+.introBlock	.title{
+	color:white;
+}
+
+/***************************************** 
+PAGE: ABOUT
+*****************************************/
+.profile-photo{
+  display:block;
+  max-width:325px;
+  margin:0 auto 30px;
+  border-radius: 100%;
+}
