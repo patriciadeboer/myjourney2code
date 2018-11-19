@@ -1,52 +1,58 @@
 /***************************************** 
-HEADER
+HEADER ORIGINAL
 *****************************************/
 
 header {
-	background-color:white;
+	background-color:black;
 	position:fixed;
 	top:0;
 	left:0;
 	right:0;
-	height:70px;
+	height:60px;
 }
 
 header *{
-	display:inline;
+	/*display:inline;*/
+	display:inline-block;
+
 }
 
 
 header img{
-	height: 70px;
+	height: 60px;
 	margin-left:30px;
 }
 
 /***************************************** 
-NAVIGATION
+NAVIGATION ORIGINAL
 *****************************************/
 
 
 nav li{
-	margin: 35px;
+	margin: auto 35px;
+	/*margin: 35px;*/
 	text-align:center;
 }
 
 nav li a {
-    color: teal;
+    color: aquamarine;
     text-decoration: none;
+    font-weight: bold;
 }
 
-/* Active Link */
+/* Active Link*/
 nav ul li.active a{
-    color:black;
+    color:white;
     font-weight:bold;
+    font-family:sans-serif;
 }
 
 /* Hovered Link*/
 nav ul li a:hover {
-  /* background-color: black; */
   color: orange; 
+  font-weight: bold;
 }
+
 
 /***************************************** 
 General
@@ -54,7 +60,7 @@ General
 
 
 body{
-	margin-top:75px;
+	margin-top:60px;
 	margin-right: 0px;
 	margin-left: 0px;
 	margin-bottom: 0px;
@@ -72,7 +78,7 @@ h2{
 }
 
 /***************************************** 
-Custom Entry Page - Mountain Hero Image
+PAGE: INDEX 
 *****************************************/
 .introBlock {
 	/* Edit Size */
@@ -110,6 +116,42 @@ Custom Entry Page - Mountain Hero Image
 .introBlock	.title{
 	color:white;
 }
+
+/***************************************** 
+PAGE: HOME
+*****************************************/
+.box1 {
+	/* Edit Size */
+	width:100%;
+	/* how much of vw / wh -- view window to cover*/
+	padding-top:10%;
+	padding-bottom:10%;
+
+	/*Box adjustments*/
+	display:flex;
+	justify-content: center;
+	align-items: center;
+
+	/* Text Align */
+	text-align: center;
+
+	/* Background */
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/homepage-mountains.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.box1 h1{
+	font-size: 4em;
+	margin: 0 auto;
+	color:white;
+}
+
+.box2{
+}
+
 
 /***************************************** 
 PAGE: ABOUT
