@@ -114,7 +114,14 @@ Custom Entry Page - Mountain Hero Image
 /***************************************** 
 PAGE: ABOUT
 *****************************************/
-.profile-photo{
+/*.profile-photo{
+  display:block;
+  max-width:325px;
+  margin:0 auto 30px;
+  border-radius: 100%;
+}*/
+
+.part1 img{
   display:block;
   max-width:325px;
   margin:0 auto 30px;
