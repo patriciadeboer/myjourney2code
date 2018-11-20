@@ -137,7 +137,7 @@ PAGE: HOME
 	text-align: center;
 
 	/* Background */
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/homepage-mountains.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/alaska-bw.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
