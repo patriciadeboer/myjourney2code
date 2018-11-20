@@ -172,7 +172,7 @@ PAGE: ABOUT
 
 .passion {
 	background-color: aquamarine;
-	height:350px;
+	height:300px;
 	padding-top: 1px;
 }
 
@@ -181,11 +181,11 @@ PAGE: ABOUT
 	width:17%;
 }
 
-.passion h2{
+.passion h2, .photography h2{
 	margin-bottom:0;
 }
 
-.passion p{
+.passion p, .photography p{
 	margin-top:0;
 	font-style: italic;
 	font-size:.75em;
