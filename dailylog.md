@@ -14,9 +14,9 @@
 ### Day 1: November 30, 2018 - Friday
 **Time Spent**: 2hrs
 
-**Today's Work**: Introduction to HTML (Web Developer Bootcamp on Udemy) - made a simple webpage declaring Lebron James as the GOAT with hyperlinks, images, etc.
+**Today's Work**: Made a very basic animation. Just something to get this challenge started. I played with some formatting as well. Some of the base of the site I had started building before starting the challenge. 
 
-**Thoughts**: I find it appropriate going back to the very basics to start off my 100 day coding challenge. Colt Steele's course, so far, has been amazing, because he goes beyond the coding process and explains the rationale behind some concepts like "semantic markup." Though, I personally have to focus more and eliminate distractions while doing this daily challenge. I have to make that 1 hr+ time sacred!
+**Thoughts**: Tomorrow I hope to go back and clean up some of my base code for the site, as I want to make sure things don't go out of hand quickly. 
 
 **Link(s) to work/Other Relevant Links**
 1. Project: https://patriciadeboer.github.io/myjourney2code/projects/project1.html
