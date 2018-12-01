@@ -1,13 +1,14 @@
 # 100 Days Of Code - Daily Log
-<!--- ### Day 0: February 30, 2016 (Example 1)
+<!--- ### Day 2: December 1, 2018 - Friday
+**Time Spent**: 
 
-**Today's Work**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Work**: 
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Thoughts**: 
 
-**Link to work:** [Calculator App](http://www.example.com)
-1. Codewars:
-2. Project link: 
+**Relevant Links**
+1. Project:
+2. Entry:
 
 --->
 
@@ -18,6 +19,19 @@
 
 **Thoughts**: Tomorrow I hope to go back and clean up some of my base code for the site, as I want to make sure things don't go out of hand quickly. 
 
-**Link(s) to work/Other Relevant Links**
+**Relevant Links**
 1. Project: https://patriciadeboer.github.io/myjourney2code/projects/project1.html
+2. Entry: https://patriciadeboer.github.io/myjourney2code/challenge/day1.html
+
+
+### Day 2: December 1, 2018 - Friday
+**Time Spent**: 
+
+**Today's Work**: 
+
+**Thoughts**: 
+
+**Relevant Links**
+1. Project:
+2. Entry:
 
