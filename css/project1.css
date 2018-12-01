@@ -1,0 +1,63 @@
+/***************************************** 
+PROJECT 1
+*****************************************/
+
+ body{
+ 	background-color:black;
+ }
+
+.Project1 {
+	text-align: center;
+}
+
+ h1{
+ 	font-size: 7em;
+	margin: 0 auto;
+	color:aquamarine;
+ }
+ h2{
+ 	font-size: 7em;
+	margin: 0 auto;
+	color:white;
+ }
+
+
+ div.ball1{
+ 	background-color:orange;
+ 	width:300px;
+ 	height:300px;
+ 	border-radius:50%;
+ 	text-align:center;
+ 	line-height: 300px;
+
+ 	position:absolute;
+ 	top:0;
+ 	left:0;
+
+ 	/* Places coordinates from middle of the ball*/
+ 	transform: translate(-50%,-50%);
+
+ 	mix-blend-mode: difference;
+
+ 	transition: all 2s;
+
+ 	animation-name:stretch;
+	animation-duration:2s;
+	animation-timing-function: ease-out;
+	animation-direction:alternate;
+	animation-iteration-count: infinite;
+	animation-play-state:running;
+ }
+
+@keyframes stretch{
+  0% {
+    transform: scale(.5);
+  }
+  50% {
+    trasnform:scale(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+

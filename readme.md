@@ -2,7 +2,7 @@
 
 *********************************
 
-Starting November 24, I will take the 100 Days of Code challenge. This is where I'll store my progress. Until then I will take a few online courses to get familiar with coding again. By the end of the year, I hope to apply to coding school. Fingers cross I get in!
+Starting December 1, I will take the 100 Days of Code challenge. This is where I'll store my progress. For the past month, I've been practicing to rebuild my coding knowledge (It's been a few years when I was actively coding). By the end of the year, I hope to apply to coding school. Fingers cross I get in!
 
 Name: Patricia de Boer
 
