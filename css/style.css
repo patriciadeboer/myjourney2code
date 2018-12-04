@@ -258,3 +258,36 @@ body{
   background: #F9F9F9;
 }
 
+/***************************************** 
+PROJECT 2
+*****************************************/
+
+
+
+input[type='submit'] {
+	width: 175px;
+	color: black ;
+	padding: 1px;
+	border: 2px solid white;
+	border-radius: 2px;
+	background-color: orange;
+
+}
+
+.welcome input[type='submit'] {
+	width: 200px;
+	color: black ;
+	padding: 1px;
+	border: 2px solid gray;
+	border-radius: 2px;
+	background-color: magenta;
+
+}
+.project2 {
+	background-color: black;
+}
+
+.project2 p{
+	color:white;
+	font-weight: bold;
+}
