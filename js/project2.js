@@ -11,6 +11,17 @@
 
 	}
 
+	function change_font(){
+		var pColors = ['white','black','blue','orange','pink','gray','aquamarine', '#754C78', '#FF1CAE'];
+		var headingColors=['#388E8E', '#00EEEE', '#ADFC92', '#00F5FF','#0EBFE9','#98F5FF','#009ACD','#003EFF','#000080'];
+		var h2Colors= ['magenta','#9A4C95','mediumvioletred', '4A0D67','#551A8B', '#F08CAE', '#1D1A31', '#B68CB8','#FF00FF'];
+		var randFont=Math.floor((Math.random()*pColors.length));
+
+		$("p").css("color",pColors[randFont]);
+		$("h1").css("color",headingColors[randFont]);
+		$("h2").css("color",h2Colors[randFont]);
+	}
+
 	function get_name(){
 		var textInput = document.getElementById('nameInput'); //built function into browser
 		var actualText = textInput.value
