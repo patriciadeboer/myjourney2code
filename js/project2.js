@@ -7,8 +7,6 @@
 		console.log(randColors);
 
 		$(".project2").css("background-color", colors[randColors]);
-		//$("#project2").css("background-color", "gray")
-
 	}
 
 	function change_font(){
@@ -20,6 +18,14 @@
 		$("p").css("color",pColors[randFont]);
 		$("h1").css("color",headingColors[randFont]);
 		$("h2").css("color",h2Colors[randFont]);
+	}
+
+	function change_greet(){
+		var greetingLanguage = ['Hola', 'Hoi', 'Welcome','Bonjour','Ciao','Namaste','Marhaba','Nǐ hǎo','Guten tag', 'Shalom','Konnichiwa','Jambo']
+		var randGreet=Math.floor((Math.random()*greetingLanguage.length));
+
+		var greet=document.getElementById('js_greet');
+		greet.innerHTML = greetingLanguage[randGreet];
 	}
 
 	function get_name(){
