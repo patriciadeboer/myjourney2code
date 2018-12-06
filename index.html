@@ -8,6 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>myJourney2Code</title>
 	<meta name="description" content="A website showcasing my work as I learn to code">
+	<!-- added -->
+	<meta name="viewport", content="width=device-width,initial-scale=1.0">
 
 	<!--Links to CSS sheets-->
 	<link rel="stylesheet" href="css/normalize.css">
@@ -19,7 +21,7 @@
 </head>
 
 <body>
-	<header>
+<!-- 	<header>
 		<a href="index.html"><img src="images/mountain-icon-black.jpg" alt="mountains"></a>
 		<nav>
 			<ul>
@@ -30,14 +32,25 @@
 				<li><a href="about-me.html">About Me</a></li>
 			</ul>
 		</nav>
-	</header>
-
-	<section class="introBlock">
+	</header> -->
+	<div class="nav">
+		<a href="index.html"><img src="images/mountain-icon-black.jpg" alt="mountains"></a>
+		<label for="toggle">&#9776;</label>
+		<input type="checkbox" id="toggle"/>
+		<div class="menu">
+			<a href="home.html">Home</a>
+			<a href="challenge/challenge-main.html">Challenge</a>
+			<a href="projects/library.html">Projects</a>
+			<a href="insights/summary.html">Insights</a>
+			<a href="about-me.html">About Me</a>
+		</div>
+	</div>
+	<div class="introBlock">
 		<div class="innerIntroBlock">
 			<h1> Learn to Code. </h1>
 			<h2> Come with me on <span class="title">myJourney2Code </span> </h2>
 		</div>
-	</section>
+	</div>
 
 	<footer>
 		<a href="https://twitter.com/myjourney2code" target="_blank"><img src="images/twitter-wrap.png" alt="Twitter Logo"></a>
