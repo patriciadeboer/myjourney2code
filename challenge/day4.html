@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<!--METADATA-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>myJourney2Code</title>
+	<meta name="description" content="A website showcasing my work as I learn to code">
+
+	<!--Links to CSS sheets-->
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<!-- <link rel="stylesheet" href="../css/journal.css">
+ -->
+	<!--OTHER-->
+    <!-- <script src="../js/vendor/modernizr-2.8.3.min.js"></script> -->
+    <script src="../js/project1.js"></script>
+</head>
+<body class="challengeentry">
+	<header>
+		<a href="../index.html"><img src="../images/mountain-icon-black.jpg" alt="mountains"></a>
+		<nav>
+			<ul>
+				<li><a href="../home.html">Home</a></li>
+				<li><a href="../challenge/challenge-main.html">Challenge</a></li>
+				<li><a href="../projects/library.html">Projects</a></li>
+				<li><a href="../insights/summary.html">Insights</a></li>
+				<li><a href="../about-me.html">About Me</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section class="entries">
+		<!--Day Intro-->
+		<section class="dayview">
+			<h1>Date: Dec 5</h1>
+			<p> Today is the official first day of my coding challenge. So here we go.....</p>
+			<p>My goal is starting today for the next 100 days to code something somewhere. They say the best way to learn is by practicing. So here goes nothing. Keep in mind, some days I may not do a project or build something on this site per se but I may practice via a coding site (i.e. codewars, or coderbyte), or watch some coding videos, etc. So that being said, I may not have a daily new project, but I do plan to write a journal entry sharing what I did each day, what challenges I faced, and overall what I learned or re-learned.
+			</p>
+
+			<h3> <i>Today's Project: Hangman</i> </h3>
+		</section>
+
+		<!--Introduction-->
+		<section class="introduction">
+			<p> The idea is well to recreate the classic game of hangman, where the user will input letters to guess the current word. The user must guess within 6 guesses before the stick figure gets hung</p>
+
+		</section>
+
+		<!--Steps Followed-->
+		<section class= "steps">
+			<h4>The Steps</h4>
+			<p> These are the steps I took for my project:</p>
+			<ol>
+				<li> Created a very basic HTML file</li>
+				<ul>
+					<li>Added a Submit button that triggers a word to be selected when clicked</li>
+					<li>Inserted word placeholder to show word length via blank indicators such as _ _ _ _ _</li>
+					<li>Created an input field for user to enter guesses along with a submit button</li>
+					<li><em>Note:</em> Both submit buttons trigger javascript functions </li>		
+				</ul>
+				<li> Wrote a corresponding js file to store functions</li>
+				<li> Functions include: </li>
+				<ul>
+					<li>triggerWord()- which randomly selects a word from a list of 100 and returns a string of _ to indicate word length</li>
+					<li>hangman()- which takes the user input, and determines if it is part of the word or not. If it is, it replaces the blank _ with the letter in the correct spot, otherwise, returns the incorrect letter along with incorrect count.</li>
+					<li><em>Note: </em> If the user guesses the correct answer, returns a greeting + image. If runs out of guesses, returns try again next time!</li>
+				</ul>
+				<li> Need to add some checks in such as if the user submits blanks, invalid values (non-alpha), more than one letter, repeats a letter. Also I would like to add image of hangman figure to replicate the true hangman experience</li>
+			</ol>
+
+		</section>
+
+		<!--Lessons Learned-->
+		<section class = "learned">
+			<h4>The Lessons</h4>
+			<p> These are the steps I took for my project:</p>
+			<ul>
+				<li> How to use mouse movements and link it to a variable to allow for it to be used for coordinates of an object/div</li>
+				
+			</ul>
+
+		</section>
+
+		<h2> And that's a wrap....</h2>
+	</section>
+
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<!--METADATA-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>myJourney2Code</title>
+	<meta name="description" content="A website showcasing my work as I learn to code">
+
+	<!--Links to CSS sheets-->
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/style.css">
+
+	<!--OTHER-->
+    <!-- <script src="../js/vendor/modernizr-2.8.3.min.js"></script> -->
+</head>
+
+<body class='project3'>
+	<header>
+		<a href="../index.html"><img src="../images/mountain-icon-black.jpg" alt="mountains"></a>
+		<nav>
+			<ul>
+				<li><a href="../home.html">Home</a></li>
+				<li><a href="../challenge/challenge-main.html">Challenge</a></li>
+				<li><a href="../projects/library.html">Projects</a></li>
+				<li><a href="../insights/summary.html">Insights</a></li>
+				<li><a href="../about-me.html">About Me</a></li>
+			</ul>
+		</nav>
+	</header>
+
+    <main>
+        <div class="hangman_form triggerButton">
+            <p> <input type="submit" value="Click to select a word" onclick="triggerWord()" /><br><em>Click to trigger new word & reset counts</em></p>
+            <h3> Word : <span id="guessWord"> </span> </h3>
+        </div>
+        <div id="y"></div>
+        <div class="hangman_form">
+            <input id="letterGuess" type="text" placeholder="Enter a letter."/>
+            <input type="submit" value="Submit Guess"onclick="hangman()" />
+            <p id="errorMessage"></p>
+        </div>
+        <div class="feedback">
+            <p><span id="wrongGuesses"> </span></p>
+            <h1><span id="youGotIt"> </span></h1>
+        </div>
+        <div id="x"></div>
+
+    </main>
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/project3.js"></script>
+</body>
+
+
+</html>
