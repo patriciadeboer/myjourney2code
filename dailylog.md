@@ -53,3 +53,46 @@
 **Relevant Links**
 1. Project: 
 2. Entry: 
+
+### Day 4: December 3, 2018 - Monday
+**Time Spent**: 
+
+**Today's Work**:  
+1. Practice Problems on Coderbyte:
+  + Alphabet Searching _(12 mins)_
+  + Changing Sequence _(11 mins)_
+
+**Thoughts**: 
+
+**Relevant Links**
+1. Project: 
+2. Entry: 
+
+### Day 5: December 4, 2018 - Tuesday
+**Time Spent**: 2
+
+**Today's Work**:  
+1. Practice Problems on Coderbyte:
+  + not today
+2. Project - Style my Page - set up some buttons and text Input box to allow the user to style some of the elements on the page.
+
+**Thoughts**: 
+
+**Relevant Links**
+1. Project: https://patriciadeboer.github.io/myjourney2code/projects/project2.html
+2. Entry: 
+
+### Day 6: December 5, 2018 - Wednesday
+**Time Spent**: 4 hours
+
+**Today's Work**:  
+1. Practice Problems on Coderbyte:
+  + None yet
+2. Project - Hangman. I created a basic version of hangman on my site today. It picks from a list of 100 random words and takes input from the user to see if it's a match. The user has 6 wrong attempts before their chances are up. If you want to try to play, check out the project link below. 
+
+**Thoughts**: Realize I need to think more about the structure of my site and the importance of organization. I may want to use of my days this week to try to clean up the site some, streamline the code, and make the site mobile friendly before I get too far in. 
+Did help me to do a lot of JS + HTML stuff today. Remembering how the functions in javascript can help make the HTML and CSS more interactive and dynamic. It was fun, yet frustrating at times. Check on the project for yourself!
+
+**Relevant Links**
+1. Project: https://patriciadeboer.github.io/myjourney2code/projects/project3.html
+2. Entry: https://patriciadeboer.github.io/myjourney2code/challenge/day6.html
