@@ -368,7 +368,7 @@ input[type='submit'] {
 }
 
 /***************************************** 
-PROJECT 3
+PROJECT 3 - Hangman
 *****************************************/
 
 .triggerButton input[type='submit'] {
@@ -380,4 +380,51 @@ PROJECT 3
 	border-radius: 3px;
 	background-color: blue;
 
+}
+
+/***************************************** 
+PROJECT 4 - Tic Tac Toe
+*****************************************/
+
+/*.tictactoe{
+	width:306px;
+	clear: left;
+}
+
+
+.rows{
+	height:100px;
+	float:left;
+}
+
+.boxes{
+	width: 100px;
+	float:left;
+	border: solid 1px black;
+	height:100px;
+}*/
+
+table { 
+  border-collapse: collapse; 
+  border-spacing: 0; 
+}
+
+#board { 
+  padding: 0px; 
+  margin: 0 auto; 
+  margin-top: 50px; 
+}
+
+#board tr td { 
+  width: 80px; 
+  height: 80px; 
+  border: 1px solid #1c1c1c; 
+  font-family: Helvetica; 
+  font-size: 30px; 
+  text-align: center; 
+}
+
+#board tr td:hover { 
+  background: gray; 
+  cursor: pointer; 
 }
