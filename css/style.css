@@ -49,6 +49,16 @@ label{
 	display:none;
 }
 
+.menu a:hover {
+  color: orange; 
+}
+
+.menu a.active{
+    color:white;
+    font-weight:bold;
+    font-family:sans-serif;
+}
+
 @media only screen and (max-width: 750px){
 	label{
 		display:block;

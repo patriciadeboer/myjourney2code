@@ -48,13 +48,42 @@ $(document).ready(function () {
 			}
 		}
 
-
+		checkWinner();
 	}
 
 	function checkWinner(){
 
-		var combo1 = [$('.tbox0').text(),$('.tbox1').text(),$('.tbox2').text()];
-		console.log(combo1)
+		//ROWS
+		var comboR1 = [$('.tbox0').text(),$('.tbox1').text(),$('.tbox2').text()];
+		var comboR2 = [$('.tbox3').text(),$('.tbox4').text(),$('.tbox5').text()];
+		var comboR3 = [$('.tbox6').text(),$('.tbox7').text(),$('.tbox8').text()];
+
+		//Columns
+		var comboC1 = [$('.tbox0').text(),$('.tbox3').text(),$('.tbox6').text()];
+		var comboC2 = [$('.tbox1').text(),$('.tbox4').text(),$('.tbox7').text()];
+		var comboC3 = [$('.tbox2').text(),$('.tbox5').text(),$('.tbox8').text()];
+
+		//Diagonals
+		var comboD1 = [$('.tbox0').text(),$('.tbox4').text(),$('.tbox8').text()];
+		var comboD2 = [$('.tbox2').text(),$('.tbox4').text(),$('.tbox6').text()];
+
+		// console.log('Row1: '+comboR1.join(''))
+		// console.log('Row2: '+comboR2.join(''))
+		// console.log('Row3: '+comboR3.join(''))
+
+		if(comboR1.join('')==='XXX'||comboR2.join('')==='XXX'||comboR3.join('')==='XXX'){
+			document.getElementById('winner').innerHTML='YAY! You Win! :) ';
+		}
+		if(comboC1.join('')==='XXX'||comboC2.join('')==='XXX'||comboC3.join('')==='XXX'){
+			document.getElementById('winner').innerHTML='YAY! You Win! :) ';
+		}
+		if(comboD1.join('')==='XXX'||comboD2.join('')==='XXX'){
+			document.getElementById('winner').innerHTML='YAY! You Win! :) ';
+		}
+
+		console.log('Row1: '+comboR1)
+		console.log('Row2: '+comboR2)
+		console.log('Row3: '+comboR3)
 	}
 
 });

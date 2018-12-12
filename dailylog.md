@@ -41,26 +41,26 @@
 2. Entry: As there was no project, no online entry either (besides this update).
 
 ### Day 3: December 2, 2018 - Sunday
-**Time Spent**: 
+**Time Spent**: 2 hours
 
 **Today's Work**:  
 1. Practice Problems on Coderbyte:
   + Alphabet Searching _(12 mins)_
   + Changing Sequence _(11 mins)_
+2. Did some work and reading on FreeCodeCamp
+3. Reviewed Coderbyte: Prepare for Fullstack Application pages
 
-**Thoughts**: 
+**Thoughts**: Remember check what you are returning in your function. Sounds silly, but a few times I had the whole code right, just wrong output in the return. Use console.log to check. Always check. Made a list of key methods worth remembering. Just used MDN and copied it into a table along with examples to show how the method works with actual values. 
 
 **Relevant Links**
-1. Project: 
-2. Entry: 
+1. Cheat Sheet: 
 
 ### Day 4: December 3, 2018 - Monday
 **Time Spent**: 
 
 **Today's Work**:  
 1. Practice Problems on Coderbyte:
-  + Alphabet Searching _(12 mins)_
-  + Changing Sequence _(11 mins)_
+  
 
 **Thoughts**: 
 
@@ -76,11 +76,10 @@
   + not today
 2. Project - Style my Page - set up some buttons and text Input box to allow the user to style some of the elements on the page.
 
-**Thoughts**: 
+**Thoughts**: Forced me to revisit some old notes and projects from my time at Starter League to remember how to use triggers like on click to connect html to JS to css. It was a good refresher. This was a simple yet valuable way to make the connections. 
 
 **Relevant Links**
 1. Project: https://patriciadeboer.github.io/myjourney2code/projects/project2.html
-2. Entry: 
 
 ### Day 6: December 5, 2018 - Wednesday
 **Time Spent**: 4 hours
@@ -96,3 +95,43 @@ Did help me to do a lot of JS + HTML stuff today. Remembering how the functions 
 **Relevant Links**
 1. Project: https://patriciadeboer.github.io/myjourney2code/projects/project3.html
 2. Entry: https://patriciadeboer.github.io/myjourney2code/challenge/day6.html
+
+### Day 7: December 6, 2018 - Thursday
+**Time Spent**: 1 hour
+
+**Today's Work**:  
+1. Project- finalized further edits to mobile friendly nav bar. Unfortunately didn't have as much time today, so was limited to just this progress. Made some other minor edits, and orgnaizational changes on the site.
+
+**Thoughts**: Comment out different lines in code slowly and one at a time to help understand what and why things aren't working as expected or how the page reacts to the changes. Also trying to limit # of css files is great, but can be dangerous if your naming is too generic. Need to learn better practices for this in future. 
+
+**Relevant Links**
+1. Just my site in general: https://patriciadeboer.github.io/myjourney2code (no specific project today)
+
+### Day 10: December 9, 2018 - Sunday
+**Time Spent**: 2 hours
+
+**Today's Work**:  
+1. Bootcamp Prep - finished up section on Higher Order functions
+2. Project - TicTacToe
+
+**Thoughts**: Used Higher Order functions in my code today. I've used it before; however, after watching the videos, helped me understand more on the right way and how values are passed properly. 
+Learning to break down the problem into multiple phases vs trying to tackle the entire problem is a HUGE help to keeping sane. Even still, I have more things I'd like to add more to this project, but attempting one feature/ check at a time, helps you slowly build the final product.
+
+**Relevant Links**
+1. Project: https://patriciadeboer.github.io/myjourney2code/projects/project4.html
+2. Entry: https://patriciadeboer.github.io/myjourney2code/challenge/entry4.html
+
+### Day 11: December 10, 2018 - Monday
+**Time Spent**: 3 hours
+
+**Today's Work**:  
+1. Bootcamp Prep - finished remaining videos, but haven't done all practice problems yet. Hopefully will finalize all of them tomorrow
+2. Project - Clean up and further organize site.
+3. Started working on my bootcamp application. Not really coding, but it's part of the path/plan to get me to be a better coder.
+
+**Thoughts**: Used Higher Order functions in my code today. I've used it before; however, after watching the videos, helped me understand more on the right way and how values are passed properly. 
+Learning to break down the problem into multiple phases vs trying to tackle the entire problem is a HUGE help to keeping sane. Even still, I have more things I'd like to add more to this project, but attempting one feature/ check at a time, helps you slowly build the final product.
+
+**Relevant Links**
+1. Project: https://patriciadeboer.github.io/myjourney2code/projects/project4.html
+2. Entry: https://patriciadeboer.github.io/myjourney2code/challenge/entry4.html
