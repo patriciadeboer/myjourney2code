@@ -135,3 +135,30 @@ Learning to break down the problem into multiple phases vs trying to tackle the 
 **Relevant Links**
 1. Project: https://patriciadeboer.github.io/myjourney2code/projects/project4.html
 2. Entry: https://patriciadeboer.github.io/myjourney2code/challenge/entry4.html
+
+### Day 12: December 11, 2018 - Tuesday
+**Time Spent**: 3 hours
+
+**Today's Work**:  
+1. Cleaning up the site- so today I focused on my home page, and cleaning up the site
+2. Project- it wasn't a separate project, but rather building in some sticky rows on the browser on my home page. 
+
+**Thoughts**: Learned more about css and how to use background image and using vw and vh, and how playing sometimes with the code and just testing to see what different things do helps really learn how the pieces play together
+
+**Relevant Links**
+1. Project: https://patriciadeboer.github.io/myjourney2code/home.html
+
+
+### Day 13: December 12, 2018 - Wednesday
+**Time Spent**: 4 hours
+
+**Today's Work**:  
+1. Bootcamp Prep - Went through and did a bunch of the practice problems. Some I redid from before, some I had skipped previously.
+2. Worked on my about me page. Made some updates, cleaned it up, and added in more informaiton about me, including my resume
+
+**Thoughts**: CSS files can get long, if you aren't careful and I still have a lot of best practices to learn to improve here. Getting better at practice problems. Not perfect, but managed to get through most of the medium codewars problems recommended by Fullstack. Hoping to finish the application this week
+
+**Relevant Links**
+1. Project: https://patriciadeboer.github.io/myjourney2code/aboutme.html
+
+
