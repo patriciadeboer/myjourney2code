@@ -473,7 +473,7 @@ footer img{
 COLORS
 *****************************************/
 body{
-  background: #F9F9F9;
+  background-color: #F9F9F9;
 }
 
 /***************************************** 
@@ -529,23 +529,6 @@ PROJECT 3 - Hangman
 PROJECT 4 - Tic Tac Toe
 *****************************************/
 
-/*.tictactoe{
-	width:306px;
-	clear: left;
-}
-
-
-.rows{
-	height:100px;
-	float:left;
-}
-
-.boxes{
-	width: 100px;
-	float:left;
-	border: solid 1px black;
-	height:100px;
-}*/
 
 table { 
   border-collapse: collapse; 
@@ -571,3 +554,70 @@ table {
   background: gray; 
   cursor: pointer; 
 }
+
+/***************************************** 
+PROJECT 6 - To Do List
+*****************************************/
+
+body.project6{
+	background-color: gray;
+	padding:15px 0px;/*remove built in padding*/
+}
+
+#toDoItem{
+	width:45vw;
+}
+
+#toDoSubmit{
+	width:15vw;
+}
+
+ul.taskUL{
+	text-align: center;
+	font-size: 15px;
+	padding:0px;
+}
+
+.taskUL li{
+	border: solid 1px aquamarine;
+	width:  60%;
+	margin:10px auto;
+	height:30px;
+	line-height: 30px;
+	list-style: none;
+	background-color: black;
+	color:white;
+	border-radius: 5px;
+	font-weight: bold;
+	text-transform: capitalize;
+
+}
+.taskUL li:hover{
+	background-color:aquamarine;
+	color:black;
+}
+
+.taskUL li>button{
+	float:right;
+	line-height: 30px;
+	border:none;
+	background: none;
+	color:orange;
+	font-weight: bolder;
+}
+
+.taskUL li>button:hover{
+	color:#e3115b;
+}
+
+
+.remove{
+	display:none;
+}
+
+
+
+
+
+
+
