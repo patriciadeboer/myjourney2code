@@ -1,4 +1,4 @@
-
+ var ul = document.querySelector("ul");
 
 
 function add_task() {
@@ -10,15 +10,48 @@ function add_task() {
 	ul.appendChild(li); 
 	document.getElementById('toDoItem').value='';
 
-	//Add Button
-	var button = document.createElement("button");
-	button.innerHTML = "X";
-	li.appendChild(button);
-	button.addEventListener("click", deleteTaskItem);
+	// li.addEventListener("click",done);
+
+	// //add function to complete task
+	// function done() {
+	// 	li.classList.toggle("completed");
+	// }
+	//Add done button
+	var check=document.createElement("button");
+	check.className = "checkBtn"
+	check.innerHTML="&#10004;";
+	li.appendChild(check);
+	check.addEventListener("click",clickItem)
+
+	// function clickItem(){
+	// 	li.classList.add("completed")
+	// }
+	function clickItem(){
+		li.classList.toggle("completed")
+	}
+	// function clickItem(){
+	// 	if(li.className==="completed"){
+	// 		li.className("uncompleted")
+	// 	}else{
+	// 		li.classList.add("completed")
+	// 	}
+	// 	console.log(li.className)
+	// }
+
+
+	//Add Button to Delete
+	var done = document.createElement("button");
+	done.className="doneBtn"
+	done.innerHTML = "X";
+	li.appendChild(done);
+	done.addEventListener("click", deleteTaskItem);
 
 	function deleteTaskItem(){
 		li.classList.add("remove")
 	}
+
+
+
 
 }
 

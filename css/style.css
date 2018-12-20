@@ -570,6 +570,8 @@ body.project6{
 
 #toDoSubmit{
 	width:15vw;
+	border:none;
+	font-weight: bold;
 }
 
 ul.taskUL{
@@ -606,7 +608,14 @@ ul.taskUL{
 	font-weight: bolder;
 }
 
-.taskUL li>button:hover{
+.taskUL li .checkBtn{
+	float:left;
+}
+.taskUL li .checkBtn:hover{
+	color:#58e311;
+}
+
+.taskUL li .doneBtn:hover{
 	color:#e3115b;
 }
 
@@ -615,9 +624,19 @@ ul.taskUL{
 	display:none;
 }
 
+li.completed{
+	background-color: green;
+}
 
+.taskUL button:focus {outline:0;}
 
-
-
+.removeInstructions{
+	color:#e3115b;
+	margin: 0px 0px 20px;
+}
+.doneInstructions{
+	color:green;
+	margin:0px;
+}
 
 
