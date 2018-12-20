@@ -594,10 +594,7 @@ ul.taskUL{
 	text-transform: capitalize;
 
 }
-.taskUL li:hover{
-	background-color:aquamarine;
-	color:black;
-}
+
 
 .taskUL li>button{
 	float:right;
@@ -611,14 +608,21 @@ ul.taskUL{
 .taskUL li .checkBtn{
 	float:left;
 }
-.taskUL li .checkBtn:hover{
-	color:#58e311;
-}
 
-.taskUL li .doneBtn:hover{
-	color:#e3115b;
-}
+@media screen and (min-width: 750px){
+	.taskUL li:hover{
+		background-color:aquamarine;
+		color:black;
+	}
+	
+	.taskUL li .checkBtn:hover{
+		color:#58e311;
+	}
 
+	.taskUL li .doneBtn:hover{
+		color:#e3115b;
+	}
+}
 
 .remove{
 	display:none;
@@ -638,5 +642,6 @@ li.completed{
 	color:green;
 	margin:0px;
 }
+
 
 
