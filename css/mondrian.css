@@ -131,3 +131,29 @@ body{
 .masterpiece{
 	visibility: hidden;
 }
+
+button{
+	width:180px;
+}
+
+@media only screen and (max-width: 750px){
+
+	div.activeColor{
+		width:10%;
+		height:10vw;
+	}
+	button{
+		display:flex;
+		position:relative;
+		left:50%;
+		margin: 0 -90px
+
+	}
+	div.buttonDiv{
+		float: center;
+		margin:0 15px;
+	}
+	
+
+	
+}
