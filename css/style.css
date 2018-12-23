@@ -492,6 +492,8 @@ input[type='submit'] {
 
 }
 
+input[type='submit']:focus {outline:0;}
+
 .welcome input[type='submit'] {
 	width: 200px;
 	color: black ;
@@ -674,7 +676,16 @@ body.project7 {
   
   border-radius: 10%;
   display:inline-block;
+  cursor:pointer;
 }
+
+.face span{
+  line-height: 10vw;
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+
 
 
 @media only screen and (max-width: 750px){
