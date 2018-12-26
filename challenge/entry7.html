@@ -1,0 +1,43 @@
+For Yahtzeeee
+- Click to hold dice
+-Calculate score
+- count rolls to 3
+
+Lessons Learned:
+ - when checking the class of an item, make sure it's not the child or parent. I was seeing if a span had a certain class name, but didn't realize it was on the parent div instead.
+ - New functionalities used:
+ 	+ hasClass, removeClass, addClass - should I try toggle instead?
+ 	+ box shadow in css for the dice face
+ 	+ 
+
+ Step 1: Create the dice face
+ - Created 5 equal faces for the Yahtzee dice
+ - Started with Numbers for now, maybe in future upgrade to actual dots on the dice
+ - Center and align the dice
+
+
+Step 2: Create random number values for the dice and hold functionality
+ - Create function that randomly selects a number between 1-6 and places them on the dice face
+ - make the dice faces clickable
+ - if the face is clicked, change color of face to indicate it's selected. But also allow user to change mind and unclick face again
+ - If a dice is 'held', ensure it doesn't change numbers (skip it from random number generation)
+
+
+Step 3: Create "Roll" button and limit the number of rolls
+- Give the user 3 rolls total per turn
+- Once the user has 0 rolls left, don't allow to roll again
+
+
+Step 4: Create score table and calculate score
+
+step 5: Create new game button
+
+Step 6: Create a rules button (use alert?)
+
+Step 7: Make upgrades
+- Add dots on the faces instead of numbers
+- Have the dice "roll" via css animation
+- 
+
+
+ Lessons Learned

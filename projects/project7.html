@@ -34,20 +34,38 @@
     </div>
 
     <main>
-        <h1> Yatzeeeee</h1>
+        <h1> Yahtzeeee</h1>
         <h4> Roll the dice and count your score</h4>
+        <h5> Rolls Remaining: <span id="rolls">3</span></h5>
         <input type="submit" value="Roll the Dice!" onclick="roll_dice()" />
         <br><br>
-    	<div class="face" onclick="hold_dice()"><span id="dice1"></span>
-    	</div>
-    	<div class="face"><span id="dice2"></span>
-    	</div>
-    	<div class="face"><span id="dice3"></span>
-    	</div>
-    	<div class="face"><span id="dice4"></span>
-    	</div>
-    	<div class="face"><span id="dice5"></span>
-    	</div>
+        <div class="dices">
+        	<div class="face"><span id="dice1"></span>
+        	</div>
+        	<div class="face"><span id="dice2"></span>
+        	</div>
+        	<div class="face"><span id="dice3"></span>
+        	</div>
+        	<div class="face"><span id="dice4"></span>
+        	</div>
+        	<div class="face"><span id="dice5"></span>
+        	</div>
+        </div>
+        <div class="scoreTable">
+            <div>Ones: <span id="score1"></span></div>
+            <div>Twos: <span id="score2"></span></div>
+            <div>Threes: <span id="score3"></span></div>
+            <div>Fours: <span id="score4"></span></div>
+            <div>Fives: <span id="score5"></span></div>
+            <div>Sixes: <span id="score6"></span></div>
+            <div>3 of a Kind: <span id="threeKind"></span></div>
+            <div>4 of a Kind: <span id="fourKind"></span></div>
+            <div>Full House: <span id="fullHouse"></span></div>
+            <div>Small Straight: <span id="smStr"></span></div>
+            <div>Large Straight: <span id="lgStr"></span></div>
+            <div>Chance: <span id="chance"></span></div>
+            <div>Yahtzeeee: <span id="yahtzeeee"></span></div>
+        </div>
     </main>
 
     <script src="../js/jquery-3.3.1.min.js"></script>
