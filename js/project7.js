@@ -50,7 +50,6 @@ function calculateScore(){
 	//sort dice values
 	sortedDice=diceValues.slice();
 	sortedDice.sort();
-	console.log(sortedDice)
 
 	let score1=0;
 	let score2=0;
@@ -97,28 +96,82 @@ function calculateScore(){
 			diceObject[diceValues[i]]=1;
 		}
 	}
-	console.log(diceObject)
+
+	let numKeys=Object.keys(diceObject).length;
+	let keys=Object.keys(diceObject);
+
 	//3 & 4 of a kind counts
 	for(let key in diceObject){
 		let currentCount=diceObject[key];
+
 		if(currentCount>2){
 			threeKind=diceValues.reduce((x,y)=> x+y);
 		}
 		if(currentCount>3){
 			fourKind=diceValues.reduce((x,y)=> x+y);
 		}
+		//if only 2 keys, and one has count of 2, other must be count of 3
+		if(numKeys===2 && currentCount===2){
+			fullHouse=25;
+		}
 		chance=diceValues.reduce((x,y)=>x+y);
 	}
 
 
+	//small Straight
+	if(numKeys>3){
+		let incrementalCount=0;
+		let arrayDice=diceValues.slice();
+		let len=arrayDice.length;
+		let minimum = Math.min(...arrayDice);
 
-	// for(let i=0;i<5;i++){
+		for(let i=0;i<len-1;i++){
+			
+			let idx = arrayDice.indexOf(minimum);
+			let nextValue=minimum+1;
+			let nextIdx=arrayDice.indexOf(nextValue)
+
+			// console.log(arrayDice)
+			// console.log(idx)
+			// console.log(minimum)
+			// console.log(nextValue)
+			arrayDice.splice(idx,1);
+			// console.log(arrayDice)
+
+			if(nextIdx!==-1){
+				incrementalCount++;
+				minimum=nextValue;
+			}else{
+				incrementalCount=0;
+				minimum = Math.min(...arrayDice);
+			}
+			//console.log("count: "+incrementalCount)
+
+			if(incrementalCount>2){
+				smStr=30;
+			}
+			if(incrementalCount>3&&numKeys>4){
+				lgStr=40;
+			}
+		}
+	}
+	//large Straight
+	// for(let i=1;i<numKeys;i++){
 	// 	let currentValue=sortedDice[i];
+	// 	let difference=sortedDice[i]-sortedDice[i-1];
 
-
-	// 	chance+=diceValues[i];
-
+	// 	if(numKeys<5||difference>1){
+	// 		lgStr=0;
+	// 	}else{
+	// 		lgStr=40;
+	// 	}
 	// }
+
+	//Yahtzee?
+	if(numKeys===1){
+		yahtzeeee=50;
+	}
+
 
 	document.getElementById("score1").innerHTML=score1;
 	document.getElementById("score2").innerHTML=score2;
@@ -128,5 +181,9 @@ function calculateScore(){
 	document.getElementById("score6").innerHTML=score6;
 	document.getElementById("threeKind").innerHTML=threeKind;
 	document.getElementById("fourKind").innerHTML=fourKind;
+	document.getElementById("fullHouse").innerHTML=fullHouse;
+	document.getElementById("smStr").innerHTML=smStr;
+	document.getElementById("lgStr").innerHTML=lgStr;
 	document.getElementById("chance").innerHTML=chance;
+	document.getElementById("yahtzeeee").innerHTML=yahtzeeee;
 }

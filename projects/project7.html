@@ -38,6 +38,7 @@
         <h4> Roll the dice and count your score</h4>
         <h5> Rolls Remaining: <span id="rolls">3</span></h5>
         <input type="submit" value="Roll the Dice!" onclick="roll_dice()" />
+
         <br><br>
         <div class="dices">
         	<div class="face"><span id="dice1"></span>
@@ -51,6 +52,10 @@
         	<div class="face"><span id="dice5"></span>
         	</div>
         </div>
+        <div>
+            <input type="submit" value="Refresh" onclick="window.location.reload()" />
+        </div>
+        <br>
         <div class="scoreTable">
             <div>Ones: <span id="score1"></span></div>
             <div>Twos: <span id="score2"></span></div>

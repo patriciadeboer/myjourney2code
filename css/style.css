@@ -652,10 +652,10 @@ body.project7 {
   background-color: gray;
   /*display: flex;*/
   align-items: center;
-  justify-content: center;
+/*  justify-content: center;*/
   /*vertical-align: center;*/
-  flex-wrap: wrap;
-  align-content: center;
+  /*flex-wrap: wrap;*/
+  /*align-content: center;*/
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -689,6 +689,18 @@ body.project7 {
 	background-color: red;
 }
 
+.dices{
+	height:10vw+15px;
+}
+
+/*.scoreTable {
+	display:flex;
+	justify-content:center;
+
+}
+.scoreTable div{
+	flex-wrap:wrap;
+}*/
 
 
 @media only screen and (max-width: 750px){
