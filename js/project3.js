@@ -90,7 +90,7 @@ function hangman(){
 	if(!chosenWord.includes(actualGuess)) {
 		wrongCount++;
 		wrongGuesses.push(actualGuess);
-		console.log(wrongCount)
+		//console.log(wrongCount)
 		if(wrongCount===6){
 			doneAnswer();
 			done="wrong";
