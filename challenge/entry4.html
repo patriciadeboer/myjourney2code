@@ -1,12 +1,112 @@
-Lessons Learned:
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<!--METADATA-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>myJourney2Code</title>
+	<meta name="description" content="A website showcasing my work as I learn to code">
+
+	<!--Links to CSS sheets-->
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<!-- <link rel="stylesheet" href="../css/journal.css">
+ -->
+	<!--OTHER-->
+    <!-- <script src="../js/vendor/modernizr-2.8.3.min.js"></script> -->
+    <script src="../js/project1.js"></script>
+</head>
+<body class="challengeentry">
+	<div class="nav">
+		<a href="../index.html"><img src="../images/mountain-icon-black.jpg" alt="mountains"></a>
+		<label for="toggle">&#9776;</label>
+		<input type="checkbox" id="toggle"/>
+		<div class="menu">
+			<a href="../home.html">Home</a>
+			<a href="../challenge/challenge-main.html">Challenge</a>
+			<a href="../projects/library.html">Projects</a>
+			<a href="../insights/summary.html">Insights</a>
+			<a href="../about-me.html">About Me</a>
+		</div>
+	</div>
+
+	<section class="entries">
+		<!--Day Intro-->
+		<section class="dayview">
+			<h1>Date: Dec 10</h1>
+			<p>Put together a basic tic tac toe game to play vs the computer. 
+			</p>
+
+			<h3> <i>Today's Project: Tic Tac Toe</i>
+			</h3>
+		</section>
+
+		<!--Introduction-->
+		<section class="introduction">
+			<p> The idea behind this project is a user can select a box to put a X and then the computer will respond with a O. As of right now, it doesn't stop when you hit 3 in a row</p>
+
+		</section>
+		<!--Steps Followed-->
+		<section class= "steps">
+			<h4>The Steps</h4>
+			<ul>
+				<li> Create basic css grid for the tic tac toe box</li>
+				<li> Create a JS file that slowly goes through each of the following:</li>
+				<ol>
+					<li> First have it so that once a box is selected, an X appears from the user</li>
+					<li> Trigger a computer turn function that randomly selects a box and inserts a O</li>
+					<li> Next start implementing checks.</li>
+					<ul>
+						<li> If the user selects a filled box, alert user.</li>
+						<li> If computer selects filled box, make the function choose another</li>
+					</ul>
+					<li> Things still want to add:</li>
+					<ul>
+						<li> Right now, the computer is randomly selecting a box, ideally it should be trying to block any multiple boxes in a row, but alas, I will save that for a future date :)</li>
+						<li> Choice to play with friend vs play with computer</li>
+						<li>Adding highlight of winning row once 3 in a row is in play </li>
+
+					</ul>
+				</ol>
+			</ul>
+
+		</section>
+
+		<!--Lessons Learned-->
+		<section class = "learned">
+			<h4>The Lessons</h4>
+			<p> What I learned along the way:</p>
+			<ul>
+				<li> make sure you have the right js file linked :)</li>
+				<li>New functionalities used:</li>
+				<ul>
+					<li>using 'this' in js to identify the current selected box</li>
+					<li>using option to append within the box via javascript </li>
+				</ul>
+			</ul>
+
+		</section>
+
+		<h2> And that's a wrap....</h2>
+	</section>
+
+
+</body>
+</html>
+<!-- 
+ Lessons Learned:
  - make sure you have the right js file linked :)
  - New functionalities used:
  	+ using 'this' in js to identify the current selected box
  	+ using ability to append within the box via javascript
  	+ 
 
- Steps: First create the grid
- - Create basic css
+ Steps: 
+ - Create basic css grid for the tic tac toe box
  - create a JS file that slowly goes through each functionality
  1) First have it so that once a box is selected, an X appears from the user
  2) Trigger a computer turn function
@@ -18,6 +118,7 @@ Lessons Learned:
  5) In future,
  	-Right now, the computer is randomly selecting a box, ideally it should be trying to block any multiple boxes in a row, but alas, I will save that for a future date :)
  	- Choice to play with friend vs play with computer
+ 	- Adding highlight of winning row once 3 in a row is in play -->
 
 
  Lessons Learned

@@ -1,4 +1,118 @@
-For Yahtzeeee
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<!--METADATA-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>myJourney2Code</title>
+	<meta name="description" content="A website showcasing my work as I learn to code">
+
+	<!--Links to CSS sheets-->
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<!-- <link rel="stylesheet" href="../css/journal.css">
+ -->
+	<!--OTHER-->
+    <!-- <script src="../js/vendor/modernizr-2.8.3.min.js"></script> -->
+    <script src="../js/project1.js"></script>
+</head>
+<body class="challengeentry">
+	<div class="nav">
+		<a href="../index.html"><img src="../images/mountain-icon-black.jpg" alt="mountains"></a>
+		<label for="toggle">&#9776;</label>
+		<input type="checkbox" id="toggle"/>
+		<div class="menu">
+			<a href="../home.html">Home</a>
+			<a href="../challenge/challenge-main.html">Challenge</a>
+			<a href="../projects/library.html">Projects</a>
+			<a href="../insights/summary.html">Insights</a>
+			<a href="../about-me.html">About Me</a>
+		</div>
+	</div>
+
+	<section class="entries">
+		<!--Day Intro-->
+		<section class="dayview">
+			<h1>Date: Dec 22</h1>
+			<p>After spending the last few days enjoying some time with friends for the holidays, got cracking on a new project
+			</p>
+
+			<h3> <i>Today's Project: Yahtzeeee</i>
+			</h3>
+		</section>
+
+		<!--Introduction-->
+		<section class="introduction">
+			<p> The idea behind this project is to be play Yahtzee. Given it's the holidays and the amount of features to be built in, this will definitely be a multi-day project. Happy holidays!</p>
+
+		</section>
+		<!--Steps Followed-->
+		<section class= "steps">
+			<h4>The Steps</h4>
+			<p> Step 1: Create the dice face</p>
+			<ul>
+				<li> Created 5 equal faces for the Yahtzee dice</li>
+				<li> Started with Numbers for now, maybe in future upgrade to actual dots on the dice. Started with dots but got stuck for now</li>
+				<li> Center and align the dice</li>
+			</ul>
+			<p> Step 2: Create random number values for the dice and hold functionality</p>
+			<ul>
+				<li> Create function that randomly selects a number between 1-6 and places them on the dice face</li>
+				<li> Make the dice faces clickable</li>
+				<li> If the face is clicked, change color of face to indicate it's selected. But also allow user to change mind and unclick face again</li>
+				<li> If a dice is 'held', ensure it doesn't change numbers (skip it from random number generation)</li>
+			</ul>
+			<p> Create "Roll" button and limit the number of rolls</p>
+			<ul>
+				<li> Give the user 3 rolls total per turn</li>
+				<li> Once the user has 0 rolls left, don't allow to roll again</li>
+			</ul>
+			<p> Step 4: Create score table and calculate score</p>
+			<ul>
+				<li> This has been the most fun part ..ok the most challenging so in some ways more fun, and some ways not</li>
+				<li> Had some issue with small Straight for some reason couldn't get my head around it. Not convinced I picked the easiest route, but that's ok. It works. </li>
+				<li> Output various score options for each dice combinations</li>
+				<li> Need to upgrade it still to allow storing of score</li>
+			</ul>
+			<p> Step 5: Future:</p>
+			<ul>
+				<li> Create a new game button</li>
+				<li> Create rues button (use alert?)</li>
+				<li> Make upgrades</li>
+				<ul>
+					<li>add dots on the faces instead of numbers</li>
+					<li>Have the dice "roll" via animation</li>
+				</ul>
+			</ul>
+		</section>
+
+		<!--Lessons Learned-->
+		<section class = "learned">
+			<h4>The Lessons</h4>
+			<p> What I learned along the way:</p>
+			<ul>
+				<li> when checking the class of an item, make sure it's not the child or parent. I was seeing if a span had a certain class name, but didn't realize it was on the parent div instead.</li>
+				<li>New functionalities used:</li>
+				<ul>
+					<li>hasClass, removeClass, addClass - should I try toggle instead?</li>
+					<li>box shadow in css for the dice face </li>
+				</ul>
+			</ul>
+
+		</section>
+
+		<h2> And that's a wrap....</h2>
+	</section>
+
+
+</body>
+</html>
+
+<!-- For Yahtzeeee
 - Click to hold dice
 -Calculate score
 - count rolls to 3
@@ -40,6 +154,4 @@ Step 7: Make upgrades
 - Add dots on the faces instead of numbers
 - Have the dice "roll" via css animation
 - 
-
-
- Lessons Learned
+ -->

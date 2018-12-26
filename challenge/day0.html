@@ -1,88 +1,115 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title> Challenge - Week 1 Day 1</title>
-	<meta name="description" content="A website showcasing my work as I learn to code!">
+
+	<!--METADATA-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>myJourney2Code</title>
+	<meta name="description" content="A website showcasing my work as I learn to code">
+
+	<!--Links to CSS sheets-->
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<!-- <link rel="stylesheet" href="../css/journal.css">
+ -->
+	<!--OTHER-->
+    <!-- <script src="../js/vendor/modernizr-2.8.3.min.js"></script> -->
+    <script src="../js/project1.js"></script>
 </head>
 
-<body>
-	<h2>Date: Nov 18 </h2>
-	<p> Recently  I decided I wanted to start coding again. But not just coding, but go to a Coding Bootcamp and really learn how to code. It's been a few years since I was actively coding, so this site is my attempt to start coding again and to practice for my coding bootcamp application. I took some classes a few years ago, and loved it but since then have done limited work to keep it up. Life happens. After doing some research and starting some online courses, I realize that taking the #100daysofCode challenge would be the best bet to get me back into the swing of things. So here goes nothing....
-	</p>
-
-	<h2> Today </h2>
-
-	<h3> <i>Getting my GitHub up &amp; running again </i>
-	</h3>
-
-	<!--Introduction-->
-	<section>
-		<p> I already had a Github account. I might not have touched it in almost 2 years, but that's besides the point. I pulled out my notes, and reviewed my Github notes. These are the steps I followed to create a new repository in my github account to kick off a webpage to store all my progress. 
+<body class="challengeentry">
+	<div class="nav">
+		<a href="../index.html"><img src="../images/mountain-icon-black.jpg" alt="mountains"></a>
+		<label for="toggle">&#9776;</label>
+		<input type="checkbox" id="toggle"/>
+		<div class="menu">
+			<a href="../home.html">Home</a>
+			<a href="../challenge/challenge-main.html">Challenge</a>
+			<a href="../projects/library.html">Projects</a>
+			<a href="../insights/summary.html">Insights</a>
+			<a href="../about-me.html">About Me</a>
+		</div>
+	</div>
+	<section class="entries">
+		<h2>Date: Nov 18 </h2>
+		<p> Recently  I decided I wanted to start coding again. But not just coding, but go to a Coding Bootcamp and really learn how to code. It's been a few years since I was actively coding, so this site is my attempt to start coding again and to practice for my coding bootcamp application. I took some classes a few years ago, and loved it but since then have done limited work to keep it up. Life happens. After doing some research and starting some online courses, I realize that taking the #100daysofCode challenge would be the best bet to get me back into the swing of things. So here goes nothing....
 		</p>
 
-		<p> For those who don't have git set up, I'll touch on that on another journal entry. Eventually, I'll come back and add the link here.
-		</p>
-	</section>
+		<h2> Today </h2>
 
-	<!--Steps Followed-->
-	<section>
-		<p> These are the steps I took to get my repository set up:</p>
-		<ol>
-			<li> Signed into my GitHub Account (reset my password because let's be honest I didn't remember that...)</li>
-			<li> On my computer under my user folder, I created a new folder called '100_days_of_Code'</li>
-			<li>Next I opened 'Terminal'. I usually do this by hitting Command + 'space bar' then typing in 'Terminal'</li>
-			<li>I went to said folder by typing 'cd 100_days_of_Code'</li>
-			<li>Next I initialized the git process by typing 'git init'</li>
-			<li>I got a message saying Initialized empty Git repository. From there I typed 'git status' just to check in</li>
-			<li>I had no files in my folder, but then decided to add a readme.md file. I copied one from another project from before, updated it, and next up was adding it to git</li>
-			<li>Next used git add to include in what I wanted to commit. I like to do all files (at least at this point in the project) so simply typed git add -A</li>
-			<li> Next I committed the file(s) and added a comment of what the update was for, in this case adding the readme.md file so entered git commit -m 'Adding a readme.md file'</li> 
-			<li> After getting confirmation of the commit, I was ready to push to the repository</li>
+		<h3> <i>Getting my GitHub up &amp; running again </i>
+		</h3>
 
-		</ol>
+		<!--Introduction-->
+		<section>
+			<p> I already had a Github account. I might not have touched it in almost 2 years, but that's besides the point. I pulled out my notes, and reviewed my Github notes. These are the steps I followed to create a new repository in my github account to kick off a webpage to store all my progress. 
+			</p>
 
-	</section>
+			<p> For those who don't have git set up, I'll touch on that on another journal entry. Eventually, I'll come back and add the link here.
+			</p>
+		</section>
 
-	<!--List of Git Commands I used-->
-	<section>
-		<p> These are the Git Commands I used, and the order in which I entered them:</p>
-		<ul>
-			<li>cd 100_days_of_Code</li>
-			<li>git init</li>
-			<li>git status</li>
-			<li>git add -A</li>
-			<li>git commit -m "Adding a readme.md file'</li>
-			<li>git push origin master <br/> <i>I received an error as I had changed my password since it was last stored [-fatal: Authentication failed ]</i></li>
-			<li>git credential-osxkeychain erase <br/> host=github.com <br/> protocol=https</li>
-			<li> git remote add origin https://github.com/<i>username/repo_name.git</i></li>
-			<li> git push -u origin master <br/> <i> proceeded to enter my username &amp; password<br/> Received an error [remote: Repository not found.] <br/> Went to GitHub to create repository in account</i></li>
-			<li> git push -u origin master <i>(tried again and it worked!)</i></li>
-		</ul>
-		<p> And now it's all set up </p>
+		<!--Steps Followed-->
+		<section>
+			<p> These are the steps I took to get my repository set up:</p>
+			<ol>
+				<li> Signed into my GitHub Account (reset my password because let's be honest I didn't remember that...)</li>
+				<li> On my computer under my user folder, I created a new folder called '100_days_of_Code'</li>
+				<li>Next I opened 'Terminal'. I usually do this by hitting Command + 'space bar' then typing in 'Terminal'</li>
+				<li>I went to said folder by typing 'cd 100_days_of_Code'</li>
+				<li>Next I initialized the git process by typing 'git init'</li>
+				<li>I got a message saying Initialized empty Git repository. From there I typed 'git status' just to check in</li>
+				<li>I had no files in my folder, but then decided to add a readme.md file. I copied one from another project from before, updated it, and next up was adding it to git</li>
+				<li>Next used git add to include in what I wanted to commit. I like to do all files (at least at this point in the project) so simply typed git add -A</li>
+				<li> Next I committed the file(s) and added a comment of what the update was for, in this case adding the readme.md file so entered git commit -m 'Adding a readme.md file'</li> 
+				<li> After getting confirmation of the commit, I was ready to push to the repository</li>
 
-	
-	</section>
+			</ol>
 
-	<section>
-		<p> What to do different next time: Set up my repoitory online first. From there I can align my local file and push, or I could pull from the online source.</p>
+		</section>
 
-	</section>
+		<!--List of Git Commands I used-->
+		<section>
+			<p> These are the Git Commands I used, and the order in which I entered them:</p>
+			<ul>
+				<li>cd 100_days_of_Code</li>
+				<li>git init</li>
+				<li>git status</li>
+				<li>git add -A</li>
+				<li>git commit -m "Adding a readme.md file'</li>
+				<li>git push origin master <br/> <i>I received an error as I had changed my password since it was last stored [-fatal: Authentication failed ]</i></li>
+				<li>git credential-osxkeychain erase <br/> host=github.com <br/> protocol=https</li>
+				<li> git remote add origin https://github.com/<i>username/repo_name.git</i></li>
+				<li> git push -u origin master <br/> <i> proceeded to enter my username &amp; password<br/> Received an error [remote: Repository not found.] <br/> Went to GitHub to create repository in account</i></li>
+				<li> git push -u origin master <i>(tried again and it worked!)</i></li>
+			</ul>
+			<p> And now it's all set up </p>
 
-	<section>
-		<p> Saving for next time, formatting this file so it actually looks good but for today, this is what it looks like. Hopefully when you read this it doesn't look like this anymore: </p>
-		<img src="../images/journal-entry1-initial-layout.png" alt="picture initial layout without formatting">
+		
+		</section>
 
-		<p> Last thing I did today, was starting to build a folder structure in my '100_days_of_Code' folder so I could start with an organized pallette from the beginning. I added an images folder, a css folder for next time, and an index.html file as a placeholder fo now. </p>
-		<img src="../images/journal-entry1-folder-structure.png" alt="picture of folder structure">
+		<section>
+			<p> What to do different next time: Set up my repoitory online first. From there I can align my local file and push, or I could pull from the online source.</p>
 
-		<p>Hopefully I'll get some css formatting and something on that home page soon. Until next time.... (which hopefully means tomorrow)</p> 
+		</section>
 
-		<p> One last commit: git add -A > git commit -m "Loading final version &amp; getting folder structure committed" > git push -u origin master </p>
+<!-- 		<section>
+			<p> Saving for next time, formatting this file so it actually looks good but for today, this is what it looks like. Hopefully when you read this it doesn't look like this anymore: </p>
+			<img src="../images/journal-entry1-initial-layout.png" alt="picture initial layout without formatting">
 
-	</section>
+			<p> Last thing I did today, was starting to build a folder structure in my '100_days_of_Code' folder so I could start with an organized pallette from the beginning. I added an images folder, a css folder for next time, and an index.html file as a placeholder fo now. </p>
+			<img src="../images/journal-entry1-folder-structure.png" alt="picture of folder structure"> -->
 
-	<h2> And that's a wrap....</h3>
+			<p>Hopefully I'll get some css formatting and something on that home page soon. Until next time.... (which hopefully means tomorrow)</p> 
+
+			<p> One last commit: git add -A > git commit -m "Loading final version &amp; getting folder structure committed" > git push -u origin master </p>
+
+<!-- 		</section> -->
+
+		<h2> And that's a wrap....</h2>
+</section>
 
 </body>
 </html>
