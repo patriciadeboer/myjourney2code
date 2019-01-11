@@ -56,7 +56,7 @@
             <input type="submit" value="Refresh" onclick="window.location.reload()" />
         </div>
         <br>
-        <div class="scoreTable">
+<!--         <div class="scoreTable">
             <div>Ones: <span id="score1"></span></div>
             <div>Twos: <span id="score2"></span></div>
             <div>Threes: <span id="score3"></span></div>
@@ -70,7 +70,51 @@
             <div>Large Straight: <span id="lgStr"></span></div>
             <div>Chance: <span id="chance"></span></div>
             <div>Yahtzeeee: <span id="yahtzeeee"></span></div>
-        </div>
+        </div> -->
+        <table class="scoreTable" id="scores">
+            <tr>
+                <td>Ones: </td>
+                <td class="scoreSpace"><span id="score1"></span></td>
+                <td>3 of a Kind: </td>
+                <td class="scoreSpace"><span id="threeKind"></span></td>
+            </tr>
+            <tr>
+                <td>Twos: </td>
+                <td class="scoreSpace"><span id="score2"></span></td>
+                <td>4 of a Kind: </td>
+                <td class="scoreSpace"><span id="fourKind"></span></td>
+            </tr>
+            <tr>
+                <td>Threes: </td>
+                <td class="scoreSpace"><span id="score3"></span></td>
+                <td>Full House: </td>
+                <td class="scoreSpace"><span id="fullHouse"></span></td>
+            </tr>
+            <tr>
+                <td>Fours: </td>
+                <td class="scoreSpace"><span id="score4"></span></td>
+                <td>Small Straight: </td>
+                <td class="scoreSpace"><span id="smStr"></span></td>
+            </tr>
+            <tr>
+                <td>Fives: </td>
+                <td class="scoreSpace"><span id="score5"></span></td>
+                <td>Large Straight: </td>
+                <td class="scoreSpace"><span id="lgStr"></span></td>
+            </tr>
+            <tr>
+                <td>Sixes: </td>
+                <td class="scoreSpace"><span id="score6"></span></td>
+                <td>Chance: </td>
+                <td class="scoreSpace"><span id="chance"></span></td>
+            </tr>
+            <tr>
+                <td>Bonus: </td>
+                <td class="scoreSpace"><span id="bonus"></span></td>
+                <td>Yahtzeeee </td>
+                <td class="scoreSpace"><span id="yahtzeeee"></span></td>
+            </tr>
+        </table>
     </main>
 
     <script src="../js/jquery-3.3.1.min.js"></script>

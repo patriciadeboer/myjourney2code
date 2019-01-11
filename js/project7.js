@@ -1,9 +1,33 @@
+
+
 let diceRolls=3;
 let diceValues=[];
+let selectedScoreTd=0;
 
 
 function roll_dice(){
 	let dice = 0;
+	console.log("New roll: ")
+	selectedScoreTd=0;
+
+	
+	let scoreElement = document.getElementsByClassName('selected');
+
+	console.log(!!scoreElement[0])
+	
+	//checks to see if there is something in the HTML Collection of getsElements based on Class Name
+	if(!!scoreElement[0]){
+		diceRolls=3;
+		saveScore();
+	}
+	//Change selected score to confirmed score
+	for (let i = 0; i < scoreElement.length; i++) {
+	    scoreElement[i].classList.add("confirmed");
+	    scoreElement[i].classList.remove('selected')
+	}
+
+
+
 
 	if(diceRolls>0){
 		diceRolls--;
@@ -14,6 +38,8 @@ function roll_dice(){
 
 	let rollsRemaining=document.getElementById('rolls');
 	rollsRemaining.innerHTML=diceRolls;
+
+
 
 	//Create random numbers for dice face
 	for(let i=0;i<5;i++){
@@ -186,4 +212,90 @@ function calculateScore(){
 	document.getElementById("lgStr").innerHTML=lgStr;
 	document.getElementById("chance").innerHTML=chance;
 	document.getElementById("yahtzeeee").innerHTML=yahtzeeee;
+
+	// $("#scores tr td.scoreSpace").click(userSelects);
+
+	// function userSelects() {
+
+	// 	let selectedBox = (this).className;
+	// 	//console.log(selectedBox.includes("selected"));
+	
+	// 	// if(selectedBox.includes("selected")){
+	// 	// 	(this).classList.toggle("selected");
+	// 	// 	selectedScoreTd--;
+	// 	// }else if(selectedScoreTd>0){
+	// 	// 	alert("Another score already selected");
+	// 	// }else{
+	// 	// 	(this).classList.toggle("selected");
+	// 	// 	if(selectedBox.includes("selected")){
+	// 	// 		selectedScoreTd--;
+	// 	// 	}else{
+	// 	// 		selectedScoreTd++;
+	// 	// 	}
+	// 	// }
+	// 	if(selectedBox.includes("selected")){
+	// 		(this).classList.toggle("selected");
+	// 		selectedScoreTd--;
+	// 	}else if(selectedScoreTd<1){
+	// 		(this).classList.toggle("selected");
+	// 		if(selectedBox.includes("selected")){
+	// 			selectedScoreTd--;
+	// 		}else{
+	// 			selectedScoreTd++;
+	// 		}
+	// 	}
+		
+	// 	console.log((this).className)
+	// 	console.log(selectedScoreTd)
+	// 	// console.log(selectedBox.includes("selected"))
+	// }
+
+}
+
+$(document).ready(function () {
+	$("#scores tr td.scoreSpace").click(userSelects);
+
+	function userSelects() {
+
+		let selectedBox = (this).className;
+		//console.log(selectedBox.includes("selected"));
+	
+		// if(selectedBox.includes("selected")){
+		// 	(this).classList.toggle("selected");
+		// 	selectedScoreTd--;
+		// }else if(selectedScoreTd>0){
+		// 	alert("Another score already selected");
+		// }else{
+		// 	(this).classList.toggle("selected");
+		// 	if(selectedBox.includes("selected")){
+		// 		selectedScoreTd--;
+		// 	}else{
+		// 		selectedScoreTd++;
+		// 	}
+		// }
+		if(selectedBox.includes("selected")){
+			(this).classList.toggle("selected");
+			selectedScoreTd--;
+		}else if(selectedScoreTd<1){
+			(this).classList.toggle("selected");
+			if(selectedBox.includes("selected")){
+				selectedScoreTd--;
+			}else{
+				selectedScoreTd++;
+			}
+		}
+		
+		console.log((this).className)
+		console.log(selectedScoreTd)
+		// console.log(selectedBox.includes("selected"))
+	}
+});
+
+//save score and rmeove Hold
+function saveScore() {
+	let holdDice = document.getElementsByClassName('face');
+	console.log(holdDice)
+	for(let i=0;i<holdDice.length;i++){
+		holdDice[i].classList.remove('hold');
+	}
 }

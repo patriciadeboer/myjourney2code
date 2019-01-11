@@ -702,6 +702,39 @@ body.project7 {
 	flex-wrap:wrap;
 }*/
 
+table.scoreTable , .scoreTable td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+td.scoreSpace {
+  width:50px;
+  cursor:pointer;
+}
+.scoreTable td {
+  padding: 5px;
+}
+
+/*td.scoreSpace {
+  display: block;
+  cursor:hand;
+}*/
+
+td.confirmed{
+	background-color:#2e2e2e;
+	color:white;
+	font-weight:bold;
+	cursor:not-allowed;
+
+}
+
+td.selected{
+	background-color:orange;
+	color:black;
+	font-weight: bold;
+}
+
 
 @media only screen and (max-width: 750px){
 	.face {
