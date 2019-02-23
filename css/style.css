@@ -761,6 +761,8 @@ main.project8{
 .project8 h2{
 	margin:0;
 	font-size: 20px;
+	font-family: 'Shadows Into Light', cursive;
+
 }
 
 div.madlib{
@@ -783,8 +785,20 @@ div.madlib{
 	position:absolute;
 	bottom:0;
 	margin:0px;
-	max-width: 680px;
+	box-sizing:border-box;
 	width:100%;
+	height:40px;
+}
+
+.project8 small{
+	opacity: 0;
+}
+
+.show-description p{
+	height:auto;
+}
+.show-description small{
+	opacity: 1;
 }
 
 .adventuretime{
@@ -807,3 +821,51 @@ div.madlib{
 	background-repeat: no-repeat;
   	background-position: center center;
 }
+
+.project8 div:hover{
+	cursor:pointer;
+}
+
+a.imgLink {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    /* raises anchor tag above everything else in div */
+    background-color: white;
+    /*workaround to make clickable in IE */
+    opacity: 0;
+    /*workaround to make clickable in IE */
+    filter: alpha(opacity=0);
+    /*workaround to make clickable in IE */
+}
+
+@media only screen and (max-width: 750px){
+	div.madlib{
+		margin:20px 10px 0 10px;
+	}
+
+	.project8 p{
+		line-height:20px;
+		font-size:16px;
+	}
+	.project8 small{
+		font-size: 13px;
+		line-height:16px;
+	}
+
+	.project8 small:active{
+		opacity:1;
+	}
+
+}
+
+.project8story {
+	text-align: left;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+
