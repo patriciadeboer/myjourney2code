@@ -842,6 +842,7 @@ a.imgLink {
     /*workaround to make clickable in IE */
 }
 
+
 @media only screen and (max-width: 750px){
 	div.madlib{
 		margin:20px 10px 0 10px;
@@ -861,11 +862,27 @@ a.imgLink {
 	}
 
 }
-
+/**********STORIES************/
 .project8story {
 	text-align: left;
 	max-width: 700px;
 	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+
 }
+
+.project8story li, p{
+	line-height: 30px;
+}
+ .madlibUser{
+    background:white;
+    color:blue;
+    border-bottom:2px black solid;
+    font-family:'Shadows Into Light';
+    padding: 0 6px;
+    margin: 4px;
+    font-size:18px;
+  }
 
 
