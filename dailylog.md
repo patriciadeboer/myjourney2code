@@ -1,5 +1,21 @@
 # 100 Days Of Code - Daily Log
 
+
+
+### Day Start Over 1: March 8
+**Time Spent**: 2 hours
+
+**Today's Work**:  
+1. MacBook Pro Set up - wiped my computer clean, and reset it due to some issues facing. Had to reinstall everything including Git
+2. Website- Adding some pts to Madlibs project
+3. Codewars challenge
+4. Read through Foundations - by the way I got into Fullstack Academy!!
+
+**Thoughts**: Excited to get started and get back into coding daily. Won't start with excuses just with execution.
+
+**Relevant Links**
+1. Project: https://patriciadeboer.github.io/myjourney2code
+
 ### Day 14: December 13, 2018 - Thursday
 **Time Spent**: 3 hours
 
